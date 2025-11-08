@@ -2,7 +2,7 @@ name: young-modulus
 channels:
   - conda-forge
 dependencies:
-  - python=3.12
+  - python=3.10
   - numpy
   - matplotlib>=3.7
   - ipykernel
