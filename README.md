@@ -52,6 +52,8 @@ Compute and visualize the **directional dependence of Young’s modulus** for an
 - Direction-dependent elastic properties
 - Material symmetry and mechanical anisotropy
 
+![Young's modulus of copper](images/Youngs_Modulus_Cu.png)
+
 ### Formula
 
 For cubic crystals, the directional Young’s modulus is given by:
