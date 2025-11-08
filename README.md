@@ -53,6 +53,13 @@ Output image will be saved as: {material} - Young's Modulus (GPa).png
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bmerle/wst3/main)
 
-### Jupyter Notebook
+### Individual Jupyter Notebooks
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bmerle/wst3/main?filepath=run_young_modulus.ipynb)
+## Anisotropic Young's modulus calculation
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bmerle/wst3/main?filepath=anisotropic_young_modulus.ipynb)
+
+## Rotate stress tensor
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bmerle/wst3/main?filepath=stress_tensor_rotation.ipynb)
+
+## Find principal stresses from tensor
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bmerle/wst3/main?filepath=find_principal_stresses.ipynb)
