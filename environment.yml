@@ -1,0 +1,13 @@
+name: young-modulus
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - numpy
+  - matplotlib>=3.7
+  - ipykernel
+  - jupyterlab
+  - pip
+  - pip:
+      # Add any extra pip-only packages here (none needed now)
+      -
