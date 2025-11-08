@@ -52,8 +52,6 @@ Compute and visualize the **directional dependence of Young’s modulus** for an
 - Direction-dependent elastic properties
 - Material symmetry and mechanical anisotropy
 
-![Young's modulus of copper](images/Youngs_Modulus_Cu.png)
-
 ### Formula
 
 For cubic crystals, the directional Young’s modulus is given by:
@@ -61,6 +59,8 @@ For cubic crystals, the directional Young’s modulus is given by:
 1/E(n) = S11 - 2 * (S11 - S12 - 0.5*S44) * (n1^2 n2^2 + n2^2 n3^2 + n3^2 n1^2)
 
 The script evaluates this on a uniform grid over the unit sphere and returns E in GPa provided you are providing S_ij in GPa^-1.
+
+![Young's modulus of copper](images/Youngs_Modulus_Cu.png)
 
 ---
 
