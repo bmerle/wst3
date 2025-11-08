@@ -46,3 +46,13 @@ Output image will be saved as: {material} - Young's Modulus (GPa).png
 
 - Input S_ij in GPa^-1 → Output E in GPa
 - Increase `--samples` for smoother surfaces (higher runtime)
+
+## Binder
+
+### Repository
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bmerle/wst3/main)
+
+### Jupyter Notebook
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bmerle/wst3/main?filepath=run_young_modulus.ipynb)
