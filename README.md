@@ -66,7 +66,7 @@ The script evaluates this on a uniform grid over the unit sphere and returns E i
 ---
 
 ### 3b. `Standalone Python script anisotropic-young-modulus_cubic-materials_from_compliance_colored.py`
-Alternative to the Jupyter Notebook --- faster for creating a collection of figures
+Alternative to the Jupyter Notebook - faster way to generate figures for multiple materials
 
 Run the script with your compliances (in GPa^-1):
 
