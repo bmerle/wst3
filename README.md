@@ -87,7 +87,7 @@ python anisotropic-young-modulus_cubic-materials_from_compliance_colored.py --S1
 
 ### 5. `schmid_fcc.ipynb`
 **Purpose:**  
-Compute the **Schmid factors** for the 12 slip systems of a **face-centered cubic (fcc)** single crystal under uniaxial loading
+Compute the **Schmid factors** for the 12 slip systems in a **face-centered cubic (fcc)** single crystal under uniaxial loading
 
 **Features:**
 - User-defined loading direction `[u v w]`  
@@ -103,7 +103,8 @@ Compute the **Schmid factors** for the 12 slip systems of a **face-centered cubi
 
 ### 6. `schmid_bcc.ipynb`
 **Purpose:**  
-Compute the **Schmid factors** for the primary 12 slip systems in a **body-centered cubic (bcc)** crystal (additional high-temperature slip systems are not considered)
+Compute the **Schmid factors** for the primary 12 slip systems in a **body-centered cubic (bcc)** single crystal under uniaxial loading
+(additional high-temperature slip systems are not considered)
 
 **Features:**
 - User-defined loading direction `[u v w]`  
