@@ -83,7 +83,39 @@ python anisotropic-young-modulus_cubic-materials_from_compliance_colored.py --S1
 - Input S_ij in GPa^-1 → Output E in GPa
 - Increase `--samples` for smoother surfaces (higher runtime)
 
+---
 
+### 5. `schmid_fcc.ipynb`
+**Purpose:**  
+Compute the **Schmid factors** for the 12 slip systems of a **face-centered cubic (fcc)** single crystal under uniaxial loading.
+
+**Features:**
+- User-defined loading direction `[u v w]`  
+- Computes Schmid factors for all **{111}⟨110⟩** slip systems  
+- Automatically flips slip directions so the reported Schmid factors are positive  
+- Prints a sorted table including φ, λ, cosines, and Schmid factor *m*  
+- Produces a 3D visualization of the top glide systems
+
+**Key Concepts:**
+- FCC slip geometry: 4 {111} planes × 3 in-plane ⟨110⟩ directions = 12 slip systems  
+- Schmid’s law: m = cos(φ) · cos(λ)  
+
+---
+
+### 6. `schmid_bcc.ipynb`
+**Purpose:**  
+Compute Schmid factors for the **primary 12 slip systems** in a **body-centered cubic (bcc)** crystal (additional high-temperature slip systems are not considered).
+
+**Features:**
+- User-defined uniaxial loading direction  
+- Computes the full **{110}⟨111⟩** slip family  
+- Flips slip directions to ensure positive Schmid factors  
+- Outputs φ, λ, cosines, and *m* for each system  
+- Visualizes the strongest glide systems in 3D
+
+**Key Concepts:**
+- BCC slip geometry: 6 {110} planes × 2 independent ⟨111⟩ directions = 12 systems  
+- Schmid’s law: m = cos(φ) · cos(λ)  
 
 
 ## Requirements
