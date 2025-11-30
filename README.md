@@ -83,6 +83,9 @@ python anisotropic-young-modulus_cubic-materials_from_compliance_colored.py --S1
 - Input S_ij in GPa^-1 → Output E in GPa
 - Increase `--samples` for smoother surfaces (higher runtime)
 
+
+
+
 ## Requirements
 
 - Python 3.9+
@@ -102,3 +105,7 @@ python anisotropic-young-modulus_cubic-materials_from_compliance_colored.py --S1
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bmerle/wst3/main?filepath=stress_tensor_rotation.ipynb) Rotate stress tensor
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bmerle/wst3/main?filepath=find_principal_stresses.ipynb) Find principal stresses from tensor
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bmerle/wst3/main?filepath=fcc_schmid.ipynb) Calculate Schmid factors from uniaxially loaded fcc crystal
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bmerle/wst3/main?filepath=bcc_schmid.ipynb) Calculate Schmid factors from uniaxially loaded bcc crystal
