@@ -1,6 +1,6 @@
-# Stress Tensor Analysis and Material Mechanics
+# Deformation geometry for materials scientists and engineers (Stress Tensor Analysis, Anisotropic Young's Modulus, Schmid Factor)
 
-This repository was developped for the WST3 lecture at Kassel University and contains a set of Jupyter notebooks for studying **stress tensors**, **coordinate transformations**, and **anisotropic elastic properties** in solid mechanics.  
+This repository was developped for the WST3 lecture at Kassel University and contains a set of Jupyter notebooks for studying **stress tensors**, **coordinate transformations**, **anisotropic elastic properties** and **slip systems of fccc and bcc crystals** in materials science and solid mechanics.  
 Each notebook is designed to be self-contained, combining theoretical explanations with numerical computation and visualization.
 
 
