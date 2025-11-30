@@ -1,6 +1,7 @@
 # Deformation geometry for materials scientists and engineers (Stress Tensor Analysis, Anisotropic Young's Modulus, Schmid Factor)
 
 This repository was developped for the WST3 lecture at Kassel University and contains a set of Jupyter notebooks for studying **stress tensors**, **coordinate transformations**, **anisotropic elastic properties** and **activation of slip systems** in materials science and solid mechanics.  
+
 Each notebook is designed to be self-contained, combining theoretical explanations with numerical computation and visualization.
 
 
@@ -64,7 +65,8 @@ The script evaluates this on a uniform grid over the unit sphere and returns E i
 
 ---
 
-### 4. `Standalone Python script anisotropic-young-modulus_cubic-materials_from_compliance_colored.py`
+### 3b. `Standalone Python script anisotropic-young-modulus_cubic-materials_from_compliance_colored.py`
+Alternative to the Jupyter Notebook --- faster for creating a collection of figures
 
 Run the script with your compliances (in GPa^-1):
 
