@@ -142,3 +142,7 @@ Compute the **Schmid factors** for the primary 12 slip systems in a **body-cente
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bmerle/wst3/main?filepath=fcc_schmid.ipynb) Calculate Schmid factors from uniaxially loaded fcc crystal
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bmerle/wst3/main?filepath=bcc_schmid.ipynb) Calculate Schmid factors from uniaxially loaded bcc crystal
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bmerle/wst3/main?filepath=fcc_taylor_uniaxial.ipynb) Calculate Taylor factor from uniaxially loaded fcc polycrystal
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bmerle/wst3/main?filepath=bcc_taylor_uniaxial.ipynb) Calculate Taylor factor from uniaxially loaded bcc polycrystal
