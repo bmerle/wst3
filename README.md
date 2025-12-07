@@ -120,7 +120,7 @@ Compute the **Schmid factors** for the primary 12 slip systems in a **body-cente
 
 ---
 
-### 7. `fcc_schmid.ipynb`
+### 7. `fcc_taylor_uniaxial.ipynb`
 **Purpose:**  
 Compute the **Taylor factor M** for FCC crystals under uniaxial loading, for both single crystals and random polycrystals.
 
@@ -136,7 +136,7 @@ Compute the **Taylor factor M** for FCC crystals under uniaxial loading, for bot
 
 ---
 
-### 8. `bcc_schmid.ipynb`
+### 8. `bcc_taylor_uniaxial.ipynb`
 **Purpose:**  
 Compute the **Taylor factor M** for BCC crystals under uniaxial loading, for both single crystals and random polycrystals.
 
