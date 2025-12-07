@@ -5,7 +5,7 @@ This repository was developped for the WST3 lecture at Kassel University and con
 Each notebook is designed to be self-contained, combining theoretical explanations with numerical computation and visualization.
 
 
-## Repository Contents
+## Repository Content
 
 ### 1. `stress_tensor_rotation.ipynb`
 **Purpose:**  
