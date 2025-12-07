@@ -49,7 +49,7 @@ Compute and visualize the **directional dependence of Young’s modulus** for an
 - Visualizes the results using 3D polar plots or surface maps
 
 **Key Concepts:**
-- Anisotropy and compliance tensor \( S_{ijkl} \)
+- Anisotropy and compliance tensor S_{ijkl}
 - Direction-dependent elastic properties
 - Material symmetry and mechanical anisotropy
 
@@ -122,7 +122,7 @@ Compute the **Schmid factors** for the primary 12 slip systems in a **body-cente
 
 ### 7. `fcc_schmid.ipynb`
 **Purpose:**  
-Compute the **Taylor factor M** for fcc crystals under uniaxial loading, for both single crystals and random polycrystals.
+Compute the **Taylor factor M** for FCC crystals under uniaxial loading, for both single crystals and random polycrystals.
 
 **Features:**
 - Computes M for a single crystal with user-defined Euler angles in Bunge convention (ϕ1,Φ,ϕ2), e.g. single crystal with [100] ∥ loading direction
@@ -132,11 +132,24 @@ Compute the **Taylor factor M** for fcc crystals under uniaxial loading, for bot
 
 **Key Concepts:**
 - FCC slip geometry: 4 {111} planes × 3 in-plane ⟨110⟩ directions = 12 slip systems  
-- Taylor factor:
-- M=ε11​∑s​∣γs​∣​
+- Taylor factor: M=​∑∣γs​∣ / ε
 
 ---
 
+### 8. `bcc_schmid.ipynb`
+**Purpose:**  
+Compute the **Taylor factor M** for BCC crystals under uniaxial loading, for both single crystals and random polycrystals.
+
+**Features:**
+- Generates BCC slip systems from {110}⟨111⟩ (default, room temperature), optionally {112}⟨111⟩ and {123}⟨111⟩ for higher temperatures
+- Computes M for a single crystal with user-defined Euler angles in Bunge convention (ϕ1,Φ,ϕ2), e.g. single crystal with [100] ∥ loading direction
+- Solves for slip shear on a minimal set of slip systems via L1 minimization (linear programming)
+- Generates many random grain orientations (uniform on SO(3)) to model a random polycrystal
+- Computes and plots the distribution of Taylor factors M for the polycrystal
+
+**Key Concepts:**
+- BCC slip geometry: 6 {110} planes × 2 independent ⟨111⟩ directions = 12 systems at room temperature (48 at elevated temperatures)
+- Taylor factor: M=​∑∣γs​∣ / ε
 
 ## Requirements
 
