@@ -50,7 +50,7 @@ Given a general (non-diagonal) stress tensor, find the **principal stresses and 
 ![Young's modulus of copper](images/Youngs_Modulus_Cu.png)
 
 **Purpose:**  
-Compute and visualize the **directional dependence of Young’s modulus** for an **anisotropic material** (e.g., orthotropic or cubic symmetry).
+Compute and visualize the **directional dependence of Young’s modulus** for an **anisotropic material** (with cubic or orthotropic symmetry).
 
 **Features:**
 - Defines stiffness/compliance matrices for anisotropic materials
