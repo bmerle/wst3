@@ -1,5 +1,5 @@
 # Deformation geometry for materials scientists and mechanical engineers 
-# (Stress Tensor Analysis, Anisotropic Young's Modulus, Schmid Factor, Taylor Factor)
+(Stress Tensor Analysis, Anisotropic Young's Modulus, Schmid Factor, Taylor Factor)
 
 This repository was in initially developped for a materials science lecture at Kassel University.
 
