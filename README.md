@@ -1,6 +1,6 @@
 # Deformation geometry for materials scientists and mechanical engineers (Stress Tensor Analysis, Anisotropic Young's Modulus, Schmid Factor, Taylor Factor)
 
-This repository was developped for the WST3 lecture at Kassel University and contains a set of Jupyter notebooks for studying **stress tensors**, **coordinate transformations**, **anisotropic elastic properties** and **activation of slip systems in cubic single crystals and polycristals** in materials science and solid mechanics.  
+This repository was developped for the author's lecture at Kassel University and contains a set of Jupyter notebooks for studying **stress tensors**, **coordinate transformations**, **anisotropic elasticity** and **activation of slip systems** in **cubic single crystals** and **polycristals** in materials science and solid mechanics.  
 
 Each notebook is designed to be self-contained, combining theoretical explanations with numerical computation and visualization.
 
@@ -172,6 +172,11 @@ Compute the **Taylor factor M** for **body-centered cubic (BCC)** crystals under
 - Python 3.9+
 - NumPy
 - Matplotlib 3.7+
+
+## Author
+
+- B. Merle, Kassel University, 2025
+- GNU General Public License v3.0
 
 ## Binder
 
