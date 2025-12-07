@@ -58,7 +58,7 @@ Compute and visualize the **directional dependence of Young’s modulus** for an
 - Visualizes the results using 3D polar plots or surface maps
 
 **Key Concepts:**
-- Anisotropy and compliance tensor S_{ijkl}
+- Anisotropy and compliance tensor S_ijkl
 - Direction-dependent elastic properties
 - Material symmetry and mechanical anisotropy
 
