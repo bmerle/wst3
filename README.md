@@ -96,7 +96,7 @@ python anisotropic-young-modulus_cubic-materials_from_compliance_colored.py --S1
 
 ### 5. `fcc_schmid.ipynb`
 **Purpose:**  
-Compute the **Schmid factors** for the 12 slip systems in a **face-centered cubic (fcc)** single crystal under uniaxial loading
+Compute the **Schmid factors** for the 12 slip systems in a **face-centered cubic (FCC)** single crystal under uniaxial loading
 
 **Features:**
 - User-defined loading direction `[u v w]`  
@@ -114,7 +114,7 @@ Compute the **Schmid factors** for the 12 slip systems in a **face-centered cubi
 
 ### 6. `bcc_schmid.ipynb`
 **Purpose:**  
-Compute the **Schmid factors** for the primary 12 slip systems in a **body-centered cubic (bcc)** single crystal under uniaxial loading
+Compute the **Schmid factors** for the primary 12 slip systems in a **body-centered cubic (BCC)** single crystal under uniaxial loading
 (additional high-temperature slip systems are not considered)
 
 **Features:**
@@ -136,7 +136,7 @@ Compute the **Schmid factors** for the primary 12 slip systems in a **body-cente
 ![Taylor Factor for FCC polycrystal with 1000 grains](images/Taylor_Factor_fcc.png)
 
 **Purpose:**  
-Compute the **Taylor factor M** for FCC crystals under uniaxial loading, for both single crystals and random polycrystals.
+Compute the **Taylor factor M** for **face-centered cubic (FCC)** crystals under uniaxial loading, for both single crystals and random polycrystals.
 
 **Features:**
 - Computes M for a single crystal with user-defined Euler angles in Bunge convention (ϕ1,Φ,ϕ2), e.g. single crystal with [100] ∥ loading direction
@@ -154,7 +154,7 @@ Compute the **Taylor factor M** for FCC crystals under uniaxial loading, for bot
 
 ### 8. `bcc_taylor_uniaxial.ipynb`
 **Purpose:**  
-Compute the **Taylor factor M** for BCC crystals under uniaxial loading, for both single crystals and random polycrystals.
+Compute the **Taylor factor M** for **body-centered cubic (BCC)** crystals under uniaxial loading, for both single crystals and random polycrystals.
 
 **Features:**
 - Generates BCC slip systems from {110}⟨111⟩ (default, room temperature), optionally {112}⟨111⟩ and {123}⟨111⟩ for higher temperatures
