@@ -1,8 +1,6 @@
 # Deformation Geometry Toolbox for Materials Scientists & Engineers: Stress Tensor, Anisotropic Young's Modulus, Schmid Factor, Taylor Factor
 
-This repository was in initially developped for a materials science lecture at Kassel University.
-
-It contains a set of Jupyter notebooks for studying **stress tensors**, **coordinate transformations**, **anisotropic elasticity** and **activation of slip systems** in **cubic single crystals** and **polycristals** in materials science and solid mechanics.  
+This repository contains a set of Jupyter notebooks for studying **stress tensors**, **coordinate transformations**, **anisotropic elasticity** and **activation of slip systems** in **cubic single crystals** and **polycrystals**, for teaching materials science and solid mechanics. It was in initially developped for the WST3 materials science lecture at Kassel University.
 
 Each notebook is designed to be self-contained, combining theoretical explanations with numerical computation and visualization.
 
