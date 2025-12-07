@@ -87,7 +87,7 @@ python anisotropic-young-modulus_cubic-materials_from_compliance_colored.py --S1
 
 ---
 
-### 5. `schmid_fcc.ipynb`
+### 5. `fcc_schmid.ipynb`
 **Purpose:**  
 Compute the **Schmid factors** for the 12 slip systems in a **face-centered cubic (fcc)** single crystal under uniaxial loading
 
@@ -103,7 +103,7 @@ Compute the **Schmid factors** for the 12 slip systems in a **face-centered cubi
 
 ---
 
-### 6. `schmid_bcc.ipynb`
+### 6. `bcc_schmid.ipynb`
 **Purpose:**  
 Compute the **Schmid factors** for the primary 12 slip systems in a **body-centered cubic (bcc)** single crystal under uniaxial loading
 (additional high-temperature slip systems are not considered)
@@ -117,6 +117,25 @@ Compute the **Schmid factors** for the primary 12 slip systems in a **body-cente
 **Key Concepts:**
 - BCC slip geometry: 6 {110} planes × 2 independent ⟨111⟩ directions = 12 systems  
 - Schmid’s law: m = cos(φ) · cos(λ)
+
+---
+
+### 7. `fcc_schmid.ipynb`
+**Purpose:**  
+Compute the **Taylor factor M** for fcc crystals under uniaxial loading, for both single crystals and random polycrystals.
+
+**Features:**
+- Computes M for a single crystal with user-defined Euler angles in Bunge convention (ϕ1,Φ,ϕ2), e.g. single crystal with [100] ∥ loading direction
+- Solves for slip shear on a minimal set of slip systems via L1 minimization (linear programming)
+- Generates many random grain orientations (uniform on SO(3)) to model a random polycrystal
+- Computes and plots the distribution of Taylor factors M for the polycrystal
+
+**Key Concepts:**
+- FCC slip geometry: 4 {111} planes × 3 in-plane ⟨110⟩ directions = 12 slip systems  
+- Taylor factor:
+- M=ε11​∑s​∣γs​∣​
+
+---
 
 
 ## Requirements
