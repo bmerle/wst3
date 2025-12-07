@@ -21,6 +21,8 @@ Compute and visualize how a 3D **stress tensor** transforms when the **coordinat
 - Passive coordinate transformations
 - Rotation matrices and their order effects 
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bmerle/wst3/main?filepath=stress_tensor_rotation.ipynb) Rotate stress tensor
+
 ---
 
 ### 2. `find_principal_stresses.ipynb`
@@ -37,9 +39,14 @@ Given a general (non-diagonal) stress tensor, find the **principal stresses and 
 - Eigenvectors ↔ principal directions
 - Symmetry and degeneracy of stress tensors (handling repeated eigenvalues)
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bmerle/wst3/main?filepath=find_principal_stresses.ipynb) Find principal stresses from tensor
+
 ---
 
 ### 3. `anisotropic_young_modulus.ipynb`
+
+![Young's modulus of copper](images/Youngs_Modulus_Cu.png)
+
 **Purpose:**  
 Compute and visualize the **directional dependence of Young’s modulus** for an **anisotropic material** (e.g., orthotropic or cubic symmetry).
 
@@ -61,7 +68,7 @@ For cubic crystals, the directional Young’s modulus is given by:
 
 The script evaluates this on a uniform grid over the unit sphere and returns E in GPa provided you are providing S_ij in GPa^-1.
 
-![Young's modulus of copper](images/Youngs_Modulus_Cu.png)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bmerle/wst3/main?filepath=anisotropic_young_modulus.ipynb) Anisotropic Young's modulus calculation
 
 ---
 
@@ -101,6 +108,8 @@ Compute the **Schmid factors** for the 12 slip systems in a **face-centered cubi
 - FCC slip geometry: 4 {111} planes × 3 in-plane ⟨110⟩ directions = 12 slip systems  
 - Schmid’s law: m = cos(φ) · cos(λ)
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bmerle/wst3/main?filepath=fcc_schmid.ipynb) Calculate Schmid factors from uniaxially loaded fcc crystal
+
 ---
 
 ### 6. `bcc_schmid.ipynb`
@@ -118,9 +127,14 @@ Compute the **Schmid factors** for the primary 12 slip systems in a **body-cente
 - BCC slip geometry: 6 {110} planes × 2 independent ⟨111⟩ directions = 12 systems  
 - Schmid’s law: m = cos(φ) · cos(λ)
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bmerle/wst3/main?filepath=bcc_schmid.ipynb) Calculate Schmid factors from uniaxially loaded bcc crystal
+
 ---
 
 ### 7. `fcc_taylor_uniaxial.ipynb`
+
+![Taylor Factor for FCC polycrystal with 1000 grains](images/Taylor_Factor_fcc.png)
+
 **Purpose:**  
 Compute the **Taylor factor M** for FCC crystals under uniaxial loading, for both single crystals and random polycrystals.
 
@@ -134,7 +148,7 @@ Compute the **Taylor factor M** for FCC crystals under uniaxial loading, for bot
 - FCC slip geometry: 4 {111} planes × 3 in-plane ⟨110⟩ directions = 12 slip systems  
 - Taylor factor: M=​∑∣γs​∣ / ε
 
-![Taylor Factor for FCC polycrystal with 1000 grains](images/Taylor_Factor_fcc.png)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bmerle/wst3/main?filepath=fcc_taylor_uniaxial.ipynb) Calculate Taylor factor from uniaxially loaded fcc polycrystal
 
 ---
 
@@ -152,6 +166,8 @@ Compute the **Taylor factor M** for BCC crystals under uniaxial loading, for bot
 **Key Concepts:**
 - BCC slip geometry: 6 {110} planes × 2 independent ⟨111⟩ directions = 12 systems at room temperature (48 at elevated temperatures)
 - Taylor factor: M=​∑∣γs​∣ / ε
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bmerle/wst3/main?filepath=bcc_taylor_uniaxial.ipynb) Calculate Taylor factor from uniaxially loaded bcc polycrystal
 
 ## Requirements
 
