@@ -134,6 +134,8 @@ Compute the **Taylor factor M** for FCC crystals under uniaxial loading, for bot
 - FCC slip geometry: 4 {111} planes × 3 in-plane ⟨110⟩ directions = 12 slip systems  
 - Taylor factor: M=​∑∣γs​∣ / ε
 
+![Taylor Factor for FCC polycrystal with 1000 grains](images/Taylor_Factor_fcc.png)
+
 ---
 
 ### 8. `bcc_taylor_uniaxial.ipynb`
