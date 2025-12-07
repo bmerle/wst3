@@ -177,7 +177,7 @@ Compute the **Taylor factor M** for **body-centered cubic (BCC)** crystals under
 
 ## Author
 
-- B. Merle, Kassel University, 2025
+- B. Merle, Chair of Mechanical Behavior of Materials, Kassel University, 2025
 - GNU General Public License v3.0
 
 ## Binder
