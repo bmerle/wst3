@@ -75,9 +75,9 @@ Compute and visualize the **directional dependence of Young’s modulus** for an
 ### 3b. `Standalone Python script anisotropic-young-modulus_cubic-materials_from_compliance_colored.py`
 Alternative to the Jupyter Notebook - faster way to generate figures for multiple materials
 
-Run the script with your compliances (in GPa^-1):
+Run the script with your compliances (in GPa^-1), for instance:
 
-python anisotropic-young-modulus_cubic-materials_from_compliance_colored.py --S11 0.014928 --S12 -0.006259 --S44 0.013280 --material Cu
+*python anisotropic-young-modulus_cubic-materials_from_compliance_colored.py --S11 0.014928 --S12 -0.006259 --S44 0.013280 --material Cu*
 
 | Argument | Type | Required | Description |
 |-----------|------|-----------|--------------|
