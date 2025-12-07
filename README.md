@@ -1,4 +1,4 @@
-# Deformation geometry for materials scientists and mechanical engineers (Stress Tensor Analysis, Anisotropic Young's Modulus, Schmid Factor)
+# Deformation geometry for materials scientists and mechanical engineers (Stress Tensor Analysis, Anisotropic Young's Modulus, Schmid Factor, Taylor Factor)
 
 This repository was developped for the WST3 lecture at Kassel University and contains a set of Jupyter notebooks for studying **stress tensors**, **coordinate transformations**, **anisotropic elastic properties** and **activation of slip systems** in materials science and solid mechanics.  
 
