@@ -1,4 +1,4 @@
-name: young-modulus
+name: wst3
 channels:
   - conda-forge
 dependencies:
