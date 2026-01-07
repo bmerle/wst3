@@ -7,4 +7,3 @@ dependencies:
   - matplotlib>=3.7
   - ipykernel
   - jupyterlab
-  - ipykernel
