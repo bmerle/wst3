@@ -6,4 +6,6 @@ dependencies:
   - numpy
   - matplotlib>=3.7
   - ipykernel
-  - jupyterlab
+  - jupyterla
+  - math
+  - typing
